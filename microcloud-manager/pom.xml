@@ -12,5 +12,60 @@
     <groupId>com.gwolf</groupId>
     <artifactId>microcloud-manager</artifactId>
 
+    <dependencies>
+        <dependency>
+            <!-- Import dependency management from Spring Boot -->
+            <!--SpringCloud离不开SpringBoot，所以必须配置SpringBoot依赖包-->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>1.5.2.RELEASE</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
 
+        <dependency>
+            <groupId>com.gwolf</groupId>
+            <artifactId>microcloud-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jetty</artifactId>
+            <version>1.5.8.RELEASE</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>1.5.8.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>1.5.8.RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>springloaded</artifactId>
+            <version>1.2.8.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>1.5.8.RELEASE</version>
+        </dependency>
+    </dependencies>
 </project>

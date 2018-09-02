@@ -18,11 +18,11 @@
     <module>microcloud-provider-dept-8001</module>
     <module>microcloud-security</module>
     <module>microcloud-provider-dept-8002</module>
-      <module>microcloud-provider-dept-8003</module>
-      <module>microcloud-consumer-80</module>
-      <module>microcloud-consumer-service</module>
-      <module>microcloud-zuul-gateway-9501</module>
-      <module>microcloud-manager</module>
+    <module>microcloud-provider-dept-8003</module>
+    <module>microcloud-consumer-80</module>
+    <module>microcloud-consumer-service</module>
+    <module>microcloud-zuul-gateway-9501</module>
+    <module>microcloud-manager</module>
   </modules>
 
   <name>microcloud</name>
