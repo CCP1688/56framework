@@ -1,0 +1,19 @@
+server:
+  port: 9001
+  
+eureka:
+  client: #客户端进行Eureka注册的配置
+    service-url: 
+      defaultZone: http://eureka:eureka@eureka-7001.com:7001/eureka,http://eureka:eureka@eureka-7002.com:7002/eureka,http://eureka:eureka@eureka-7003.com:7003/eureka
+    register-with-eureka: false
+feign:
+  compression:
+    request:
+      mime-types: 
+      - text/xml
+      - application/xml
+      - application/json
+      min-request-size: 2048  #超过2048的字节进行压缩
+logging:
+  level: 
+    com.gwolf.service: DEBUG
