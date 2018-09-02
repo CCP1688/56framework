@@ -11,6 +11,7 @@
 
   <modules>
     <module>microcloud-api</module>
+    <module>microcloud-eureka-7001</module>
   </modules>
 
   <name>microcloud</name>
