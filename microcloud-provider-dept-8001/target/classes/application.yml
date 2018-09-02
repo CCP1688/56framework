@@ -31,5 +31,5 @@ eureka:
 info:
   app.name: gwolf-microcloud
   company.name: www.gwolf.com
-  build.artifactId: $project.artifactId$
-  build.version:  $project.version$
+  build.artifactId: microcloud-provider-dept-8001
+  build.version:  1.0

@@ -22,7 +22,7 @@
     <module>microcloud-consumer-9001</module>
     <module>microcloud-consumer-service</module>
     <module>microcloud-zuul-gateway-9501</module>
-    <module>microcloud-manager</module>
+    <module>microcloud-manager-web</module>
   </modules>
 
   <name>microcloud</name>

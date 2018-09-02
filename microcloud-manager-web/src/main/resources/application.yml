@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: microcloud-manager-web
+  instance:
+    instance-id: manager-web-80.com  #在信息列表中显示主机名称
+    prefer-ip-address: true   #访问的路径变为IP地址
+info:
+  app.name: gwolf-microcloud
+  company.name: www.gwolf.com
+  build.artifactId: $project.artifactId$
+  build.version:  $project.version$
