@@ -19,7 +19,7 @@ info:
 zuul:
   AuthorizedRequestFilter:
     pre:
-      disable:  true
+      disable:  false
   ignored-services: 
     "*"
   routes: 
