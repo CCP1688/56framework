@@ -10,7 +10,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    
+    <module>microcloud-api</module>
   </modules>
 
   <name>microcloud</name>
