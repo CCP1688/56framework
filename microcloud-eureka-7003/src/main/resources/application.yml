@@ -5,7 +5,7 @@ eureka:
     hostname: eureka-7003.com #设置清理的间隔时间，默认这个时间使用的毫秒单单位（默认是60秒）
   client: #客户端进行Eureka注册的配置
       service-url: 
-        defaultZone: http://eureka:eureka@eureka-7002.com:7002/eureka,http://eureka:eureka@eureka-7003.com:7003/eureka
+        defaultZone: http://eureka:eureka@eureka-7002.com:7002/eureka,http://eureka:eureka@eureka-7001.com:7001/eureka
       register-with-eureka: false #当前的微服务不注册到eureka之中
       fetch-registry: false
 spring:
